@@ -8,7 +8,7 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: rgb(119, 55, 100);
 }
 
 li {
@@ -24,9 +24,9 @@ li a {
 }
 
 li a:hover:not(.activo) {
-    background-color: blue;
+    background-color: rgb(101, 101, 172);
 }
 
 .activo {
-    background-color: blueviolet;
+    background-color: rgb(178, 111, 240);
 }
