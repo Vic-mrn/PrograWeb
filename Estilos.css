@@ -1,18 +1,23 @@
 body {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Segoe UI';
+    background-color: black;
 }
 
 
-ul{
+
+ul {
     list-style-type: none;   
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
 }
 
 li {
-    float: left;
+    float: right;
+    color: aliceblue;
 }
 
 li a {
@@ -29,4 +34,14 @@ li a:hover:not(.activo) {
 
 .activo {
     background-color: rgb(178, 111, 240);
+}
+
+.base {
+    padding: 100%;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
 }
