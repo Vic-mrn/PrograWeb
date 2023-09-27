@@ -51,10 +51,8 @@ li a:hover:not(.activo) {
     width: 50px;
 }
 
-h1 {
+h1 {  
     font-family: 'Dela Gothic One', cursive;
+    font-size: 100px;
 }
 
-.titulo {
-    color: aqua;
-}
