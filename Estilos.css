@@ -51,6 +51,11 @@ li a:hover:not(.activo) {
     width: 50px;
 }
 
+.logo_name {
+    margin-bottom: 25px;
+    text-overflow: ellipsis;
+}
+
 h1 {  
     font-family: 'Dela Gothic One', cursive;
     font-size: 100px;
@@ -80,4 +85,9 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
+  }
+
+  div.Contenedor {
+    width: 50%;
+    margin-top: 100px;
   }
