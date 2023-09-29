@@ -31,8 +31,11 @@ li a {
 }
 
 li a:hover:not(.activo) {
-    background-color: rgb(101, 101, 172);
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
+    border-style: solid;
+    border-color:  rgb(101, 101, 172);
+    border-width: thin;
 }
 
 .activo {
