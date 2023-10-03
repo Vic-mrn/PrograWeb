@@ -71,7 +71,6 @@
 }
 
 /* Letras */
-
 .verdeclaro {
   color: var(--ligthgreen);
 }
@@ -86,4 +85,22 @@
 
 .oscuro {
   color: var(--dark);
+}
+
+/* Contenedores */
+
+.bg-verdeclaro {
+  background-color: var(--ligthgreen);
+}
+
+.bg-hoja {
+  background-color: var(--hoja);
+}
+
+.bg-verde {
+  background-color: var(--green);
+}
+
+.bg-oscuro {
+ background-color: var(--dark); 
 }
