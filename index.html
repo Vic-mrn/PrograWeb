@@ -31,7 +31,7 @@
     />
   </head>
 
-  <body>
+  <body class="color-fondo">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-pills d-flex">
       <!-- Logo -->
@@ -63,7 +63,7 @@
           <!-- Cascada de opciones (Acerca de mi) -->
           <li class="nav-item dropdown" id="obj-lista">
             <a
-              class="nav-link dropdown-toggle bg-dark"
+              class="nav-link dropdown-toggle obj-lista"
               href="#"
               id="navbarDropdown"
               role="button"
@@ -74,7 +74,7 @@
               Acerca de mi
             </a>
             <div
-              class="dropdown-menu bg-dark rounded"
+              class="dropdown-menu obj-lista bg-dark rounded"
               aria-labelledby="navbarDropdown"
             >
               <a class="dropdown-item text-bg-dark" href="acercademi.html">¿Quien soy?</a>
@@ -85,22 +85,22 @@
           <!-- Cascada de opciones (Portafolio) -->
           <li class="nav-item dropdown" id="obj-lista">
             <a
-              class="nav-link dropdown-toggle bg-dark"
+              class="nav-link dropdown-toggle obj-lista"
               href="#"
               id="navbarDropdown"
               role="button"
-              data-toggle="dropdown"
+              data-toggle="dropdown"                                          
               aria-haspopup="true"
               aria-expanded="false"
             >
               Portafolio
             </a>
             <div
-              class="dropdown-menu bg-dark rounded"
+              class="dropdown-menu rounded obj-lista"
               aria-labelledby="navbarDropdown"
             >
-              <a class="dropdown-item text-bg-dark" href="cv.html">Mi CV</a>
-              <a class="dropdown-item text-bg-dark" href="portafolio.html">Proyectos</a>
+              <a class="dropdown-item" href="cv.html">Mi CV</a>
+              <a class="dropdown-item" href="portafolio.html">Proyectos</a>
             </div>
           </li>
 
@@ -116,14 +116,23 @@
     </nav>
 
       <br />
-      <main class="container">
-        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-          <div class="col-lg-6 px-0">
-            <h1 class="display-4" style="font-family: Dela Gothic One;">Hola!, yo soy <span style="color: chocolate;">Victor</span></h1>
-            <p class="lead my-3" style="font-family: consolas;">Soy un estudiante de 21 años, perteneciente a la carrera de Ing. en Sistemas Computacionales en el Tecnm Campus Acapulco Actualmente estoy cursando el 7mo semestre de la universidad y trabajando en esta página web</p>
-            <p class="lead mb-0"><a href="acercademi.html" class="text-body-secondary">Mas acerca de mi...</a></p>
+      <main class="container color-cont rounded">
+        <div class="row p-4 p-md-5 mb-4 rounded text-body-emphasis">
+          <div class="col-lg-6">
+            <center>
+              <h1 class="display-4 oscuro" style="font-family: Dela Gothic One;">Hola!, yo soy <span class="verde">Victor Moreno</span></h1>
+            </center>
+            <p class="lead my-3 oscuro" style="font-family: consolas;">Soy un estudiante de 21 años, perteneciente a la carrera de Ing. en Sistemas Computacionales en el Tecnm Campus Acapulco Actualmente estoy cursando el 7mo semestre de la universidad y trabajando en esta página web</p>
+            <div class="nav-pills"> 
+              <p class="lead mb-0 "><a href="acercademi.html" class="oscuro">Mas acerca de mi...</a></p>
+            </div>
+            
+            
           </div>
-          <divc class="d-none d-lg-block"><img src="logo.png" height="100px" width="100px"></div>
+          <div class="col-lg-6">
+            <div class="centrador">
+              <img class="imagen" src="logo.png" height="100px" width="100px"></div>
+            </div>
         </div>
       </main>
 
