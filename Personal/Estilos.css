@@ -1,0 +1,106 @@
+/* Variables */
+
+/* Forma de uso "var(--dark)" */
+
+:root {
+  --dark: #002025;
+  --green: #152D35;
+  --ligthgreen: #D4ECDD;
+  --hoja: #345B63;
+}
+
+
+/* Navbar */
+#logo-oso {
+  margin-left: 20px;
+}
+
+#obj-lista {
+  margin-left: 10px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#obj-lista:hover {
+  background-color: var(--green);
+  border-radius: 7px;
+  border-style: solid;
+  border-color: var(--ligthgreen);
+  border-width: thin;
+  color: var(--ligthgreen);
+}
+
+#obj-lista-desp {
+  background-color: var(--dark);
+}
+
+/* contenedores */
+#Col-cont {
+  background-color: rgb(33, 37, 41);
+}
+
+/* Otras cosas */
+.color-fondo {
+  background-color:var(--ligthgreen);
+}
+
+ .color-nav {
+  background-color:var(--dark);
+  color: var(--ligthgreen);
+}
+
+.color-cont {
+  background-color: var(--hoja);
+}
+
+/* Centrar imagenes */
+.centrador{
+  position: relative;
+  width: 550px;
+  height: 400px;
+}
+
+.imagen{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Letras */
+.verdeclaro {
+  color: var(--ligthgreen);
+}
+
+.hoja {
+  color: var(--hoja);
+}
+
+.verde {
+  color: var(--green);
+}
+
+.oscuro {
+  color: var(--dark);
+}
+
+/* Contenedores */
+
+.bg-verdeclaro {
+  background-color: var(--ligthgreen);
+}
+
+.bg-hoja {
+  background-color: var(--hoja);
+}
+
+.bg-verde {
+  background-color: var(--green);
+}
+
+.bg-oscuro {
+ background-color: var(--dark); 
+}
