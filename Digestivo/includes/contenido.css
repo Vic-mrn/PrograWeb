@@ -1,14 +1,18 @@
-iframe {
-    border: none;
+.contenido {
     width: 100%;
     height: 540px;
 }
 
-h1#titulo {
-    text-align: center;
+.cuerpo {
+    height: 650px;
+    width: 60%;
+    border: none;
+    display: block;
 }
 
-header {
-    background-color: #FFD900;
-    color: red;
+.organos {
+    height: 650px;
+    width: 40%;
+    border: none;
+    display: block;
 }
