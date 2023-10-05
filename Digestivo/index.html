@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="includes/contenido.css">
-    <title>Sistema digestivo</title>
-</head>
-<body>
-    <div class="contenido">
-        <iframe src="cuerpo.html" class="cuerpo"></iframe>
-        <iframe src="instrucciones.html" name="info" class="organos"></iframe>
-    </div>
-</body>
-</html>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+    <title>Sistema digestivo</title>
+
+</head>
+
+<body style="background-color: #27374D;">
+
+    <head class="head">
+        <h1 id="titulo" style="background-color: #27374D; color: aliceblue;">EL CUERPO HUMANO (SISTEMA DIGESTIVO)</h1>
+    </head>
+    <main class="row cont">
+        <div class="cuad1 col-6">
+            <img src="includes/cuerpohumano.jpg" width="500" height="468" usemap="#image-map" class="sombra">
+            <map name="image-map">
+                <area target="info" href="Organos\boca.html" coords="197,95,16" shape="circle">
+                <area target="info" href="Organos\glandulas.html"
+                    coords="223,76,226,86,235,93,231,105,240,107,247,98,246,87,239,74,233,68,227,69" shape="poly">
+                <area target="info" href="Organos\faringe.html" coords="242,109,249,109,255,161,244,157" shape="poly">
+                <area target="info" href="Organos\esofago.html" coords="246,161,255,163,256,215,246,217" shape="poly">
+                <area target="info" href="Organos\higado.html"
+                    coords="244,221,216,218,202,227,195,239,195,254,195,269,194,281,198,287,207,277,216,275,231,262,244,255,257,251,272,246,282,233,286,221,276,216,266,220"
+                    shape="poly">
+                <area target="info" href="Organos\estomago.html"
+                    coords="294,224,300,232,303,244,297,261,286,271,270,279,257,275,247,272,236,271,233,263,247,258,261,258,276,246,282,233,287,223"
+                    shape="poly">
+                <area target="info" href="Organos\pancreas.html"
+                    coords="241,285,260,283,269,279,250,271,238,270,226,278" shape="poly">
+                <area target="info" href="Organos\in-grueso.html"
+                    coords="226,339,220,353,206,347,197,334,194,315,196,299,201,281,213,277,226,280,249,284,271,280,287,273,297,266,307,258,306,269,302,284,303,308,305,327,301,342,295,358,288,367,270,372,255,367,262,355,274,359,287,343,295,333,296,317,295,303,294,289,281,288,267,296,256,299,245,299,223,292,213,291,211,301,218,329,210,313"
+                    shape="poly">
+                <area target="info" href="Organos\in-delgado.html"
+                    coords="215,294,211,310,220,325,224,334,226,343,221,356,233,363,241,365,249,366,257,358,261,351,271,354,283,341,291,331,292,320,292,301,291,291,280,290,268,299,238,300"
+                    shape="poly">
+                <area target="info" href="Organos\in-delgado.html" coords="239,368,246,382,254,384,261,371"
+                    shape="poly">
+                <area target="info" href="Organos\recto.html" coords="241,371,248,398,255,400,260,372" shape="poly">
+                <area target="info" href="Organos\ano.html" coords="250,405,12" shape="circle">
+            </map>
+        </div>
+        <div class="cuad2 col-6">
+            <iframe src="instrucciones.html" class="cuad3 sombra" name="info"></iframe>
+        </div>
+    </main>
+</body>
+
+</html>
