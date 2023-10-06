@@ -1,0 +1,25 @@
+:root {
+    --red: #F05454;
+  }
+
+.lista{
+    color: var(--red);
+    border-radius: 15px;
+    border-style: solid;
+    border-color: var(--red);
+    border-width: thin;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.lista:hover {
+    color: black;
+}
+
+span {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
