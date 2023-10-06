@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .cont {
+            height: 300px;
+            width: 300px;
+        }
+
+        .centrar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+    </style>
+
+
+    <title>Menu</title>
+</head>
+
+<body>
+    <main class="flex-row centrar">
+        <div class="row">
+            <!-- Personal -->
+            <div class="col-3 cont centrar">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/personal.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Página personal</h5>
+                        <p class="card-text">Página con información para conocer mas sobre mi, da clic en el enlace si
+                            quieres conocer mas
+                            sobre mi :D</p>
+                        <a href="Personal/index.html" class="btn btn-primary">Página personal</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Empresa -->
+            <div class="col-3 cont centrar">
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Empresa</h5>
+                        <p class="card-text">Conoce a Nismo, la division de performance de Nissan Motor Company. Mira
+                            sus proyectos y sus logros</p>
+                        <a href="Empresa/index.html" class="btn btn-primary"><img src="img/nismo.svg" height="20px"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Digestivo -->
+            <div class="col-3 cont centrar">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/digestivo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema Digestivo</h5>
+                        <p class="card-text">Conoce el sistema digestivo humano, solo selecciona los organos que lo
+                            componen y encontraras información útil</p>
+                        <a href="Digestivo/index.html" class="btn btn-primary">Sistema digestivo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rubik -->
+            <div class="col-3 cont centrar">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Cubo.png" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Cubo Rubik</h5>
+                        <p class="card-text">Conoce los colores que componen el cubo mas famoso, selecciona una parte
+                            del cubo para interactuar con el :)</p>
+                        <a href="Cubo/index.html" class="btn btn-primary"><img src="img/rubik.svg" height="20px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
