@@ -62,12 +62,13 @@
 
 .imagen{
     position: absolute;
-    width: 100px;
+    width: 300px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+    border-radius: 20px;
 }
 
 /* Letras */
